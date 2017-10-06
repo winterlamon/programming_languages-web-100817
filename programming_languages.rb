@@ -60,7 +60,7 @@ def reformat_languages(languages)
         language_info[:style] << style
 #        new_hash[hash]
       end
-      
+
 #      binding.pry
 =begin
   {
