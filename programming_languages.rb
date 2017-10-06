@@ -55,7 +55,7 @@ def reformat_languages(languages)
   languages.collect do |style, hash|
     hash.collect do |language, language_info|
 
-      new_hash.to_h = language
+      new_hash = new_hash[language][language_info]
 
 
       binding.pry
