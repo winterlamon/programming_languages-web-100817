@@ -60,10 +60,10 @@ def reformat_languages(languages)
         if attribute == :style
           language_info << style
         end
+        binding.pry
 #        new_hash[hash]
       end
 
-      binding.pry
     end
 =begin
   {
