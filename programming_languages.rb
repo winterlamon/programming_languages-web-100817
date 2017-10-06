@@ -64,6 +64,7 @@ def reformat_languages(languages)
       end
 
       binding.pry
+    end
 =begin
   {
     language => {language_info => language_info[:type], language_info[:style] => [style]},
