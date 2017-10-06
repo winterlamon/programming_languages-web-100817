@@ -57,7 +57,7 @@ def reformat_languages(languages)
       language_info.collect do |attribute, value|
       new_hash = new_hash[hash]
       language_info[:style] = []
-        if attribute == :style 
+        if attribute == :style
           language_info << style
         end
 #        new_hash[hash]
