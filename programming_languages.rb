@@ -58,8 +58,9 @@ def reformat_languages(languages)
       hash[language]
       language_info[:style] = []
         language_info[:style] << style
+        new_hash[hash]
       end
-      new_hash[hash]
+      
       binding.pry
 =begin
   {
