@@ -70,7 +70,7 @@ def reformat_languages(languages)
 =end
 #  new_hash.to_h
 
-    end
+    
   end
 #  new_hash
 end
