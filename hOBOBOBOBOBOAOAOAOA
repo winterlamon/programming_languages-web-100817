@@ -1,0 +1,26 @@
+
+[1mFrom:[0m /home/winterlamon/programming_languages-web-100817/programming_languages.rb @ line 61 Object#reformat_languages:
+
+    [1;34m53[0m: [32mdef[0m [1;34mreformat_languages[0m(languages)
+    [1;34m54[0m:   new_hash = {}
+    [1;34m55[0m:   languages.collect [32mdo[0m |style, hash|
+    [1;34m56[0m:     hash.collect [32mdo[0m |language, language_info|
+    [1;34m57[0m: 
+    [1;34m58[0m:       new_hash = language
+    [1;34m59[0m: 
+    [1;34m60[0m: 
+ => [1;34m61[0m:       binding.pry
+    [1;34m62[0m: [1;34m=begin[0m
+    [1;34m63[0m:   {
+    [1;34m64[0m:     language => {language_info => language_info[[33m:type[0m], language_info[[33m:style[0m] => [style]},
+    [1;34m65[0m:     language => {language_info[[33m:type[0m] => [31m[1;31m"[0m[31mcompiled[1;31m"[0m[31m[0m, language_info[[33m:style[0m] => [style]},
+    [1;34m66[0m:     language => {language_info[[33m:type[0m] => [31m[1;31m"[0m[31mcompiled[1;31m"[0m[31m[0m, language_info[[33m:style[0m] => [style]}
+    [1;34m67[0m:   }
+    [1;34m68[0m: =[32mend[0m
+    [1;34m69[0m: [1;34m#  new_hash.to_h[0m
+    [1;34m70[0m: 
+    [1;34m71[0m:     [32mend[0m
+    [1;34m72[0m:   [32mend[0m
+    [1;34m73[0m: [1;34m#  new_hash[0m
+    [1;34m74[0m: [32mend[0m
+
