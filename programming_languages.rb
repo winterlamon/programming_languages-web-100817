@@ -55,7 +55,7 @@ def reformat_languages(languages)
   languages.collect do |style, hash|
     hash.collect do |language, language_info|
 
-      hash[language]
+      new_hash[language]
       language_info[:style] = []
         language_info[:style] << style
 #        new_hash[hash]
