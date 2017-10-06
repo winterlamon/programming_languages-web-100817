@@ -59,7 +59,7 @@ def reformat_languages(languages)
   #    language_info[:style] = []
         if attribute == :style
           language_info[attribute] = []
-          language_info[attribute] << style
+          language_info[attribute] << value
         end
         binding.pry
 #        new_hash[hash]
