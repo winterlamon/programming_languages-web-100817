@@ -61,7 +61,7 @@ def reformat_languages(languages)
 #        new_hash[hash]
       end
 
-#      binding.pry
+      binding.pry
 =begin
   {
     language => {language_info => language_info[:type], language_info[:style] => [style]},
